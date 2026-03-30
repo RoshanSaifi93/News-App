@@ -6,8 +6,6 @@ const Newsapp = () => {
   const [search, setSearch] = useState("india"); 
   const [query, setQuery] = useState("india"); 
   const [newsData, setNewsData] = useState([]);
-
-//   const API_KEY = "dfb0d105f91c47a4aaf46d3867dc5bad";
   
     const API_KEY = import.meta.env.VITE_API_KEY;
     console.log("API KEY:", API_KEY);
