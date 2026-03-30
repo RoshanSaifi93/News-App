@@ -52,10 +52,6 @@ npm install
 
 npm run dev
 
-🌐 Live Demo
-
-(Add your deployed link here - Vercel / Netlify)
-
 🙌 Author
 
 Roshan Saifi
