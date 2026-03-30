@@ -1,16 +1,66 @@
-# React + Vite
+📰 News App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive News Web Application built using React.js that fetches real-time news from an API and displays it in a clean card-based UI.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔍 Fetches latest news using API
+🖼️ Displays news in card layout with images
+⚡ Fast and responsive UI
+🔗 Click on title or "Read More" to view full article
+📴 Handles missing images with fallback
+📱 Mobile-friendly design
 
-## React Compiler
+🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Frontend: React.js
+Styling: CSS
+API: News API
+Build Tool: Vite
 
-## Expanding the ESLint configuration
+📂 Folder Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+news-website/
+│
+├── src/
+│   ├── components/
+│   │   ├── Card.jsx
+|   |   ├── Footer.jsx
+|   |   ├── Newsapp.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│
+├── public/
+├── index.html
+└── package.json
+
+⚙️ Installation & Setup
+
+1. Clone the repository:
+
+git clone https://github.com/RoshanSaifi93/News-App.git
+
+2. Navigate to project folder:
+
+cd news-website
+
+3. Install dependencies:
+
+npm install
+
+4. Run the development server:
+
+npm run dev
+
+🌐 Live Demo
+
+(Add your deployed link here - Vercel / Netlify)
+
+🙌 Author
+
+Roshan Saifi
+
+GitHub: https://github.com/RoshanSaifi93
+⭐ Support
+
+If you like this project, please give it a ⭐ on GitHub!
